@@ -1,0 +1,66 @@
+/*navigation*/	   
+		.shadowblockmenu{
+font-weight: bold;
+font-size: 85%;
+width: 55%;
+
+}
+
+.shadowblockmenu ul{
+border: 1px solid #BBB;
+border-width:0; /* Show only top and bottom border for main menu container */
+padding:0;
+margin: 0;
+overflow: hidden;
+
+
+
+}
+
+.shadowblockmenu ul li{
+display: inline;
+margin:0;
+padding-right:0;
+background-image:url("C:\Users\hp\Desktop\ITWE web design\chelsea\chelsea.jpg");
+
+}
+
+.shadowblockmenu ul li a{
+display:block;
+float:left;
+text-transform: uppercase;
+color: #000;
+padding: 8px 70px 8px 9px;
+margin: 0;
+text-decoration: none;
+border-right: 1px solid #BBB;
+-moz-box-shadow: inset -7px 0 10px rgba(114,114,114, 0.4); /* Add inset shadow to each menu item. First 3 values in (114,114,114, 0.4) specifies rgb values, last specifies opacity */
+-webkit-box-shadow: inset -7px 0 10px rgba(114,114,114, 0.4);
+box-shadow: inset -7px 0 10px rgba(114,114,114, 0.4);
+text-shadow: 0 -1px 1px #cfcfcf; /* CSS text shadow to give text some depth */
+-moz-transition: all 0.2s ease-in-out; /* Enable CSS transition between property changes */
+-webkit-transition: all 0.2s ease-in-out;
+-o-transition: all 0.2s ease-in-out;
+-ms-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+color:blue;
+}
+
+
+.shadowblockmenu li:nth-of-type(1) a{ /* Extra style for first menu link */
+border-left: 1px solid #BBB; /* add border to left side of first menu link */
+padding-left:15px;
+
+}
+
+.shadowblockmenu li:nth-of-type(2) a{ /* Extra style for 2nd menu link */
+padding-left:25px;
+
+}
+
+.shadowblockmenu ul li a:hover{
+color:red;
+-moz-box-shadow: inset -7px 0 10px rgba(60,162,221, 0.4), inset 0 0 12px rgba(60,162,221, 0.6); /* Add 2 inset shadows to each menu item  */
+-webkit-box-shadow: inset -7px 0 10px rgba(60,162,221, 0.4), inset 0 0 12px rgba(60,162,221, 0.6);
+box-shadow: inset -7px 0 10px rgba(60,162,221, 0.4), inset 0 0 12px rgba(60,162,221, 0.6);
+}
