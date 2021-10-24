@@ -1,152 +1,40 @@
-<html>
-      <head>
-	 
-            <title>Sergithang Farmers Showroom</title>
-			<link rel="shortcut icon" href="title.jpg">
-			<link rel="stylesheet" type="text/css" href="home.css" title="Style">
-        <style type="text/css">
-		<!--
-			.ilink {
-				color:#CCC;
-				text-decoration:none;
-			}
-			.ilink:hover{
-				color:#F00;
-				
-			}
-		
-			h1.title{
-			   font-family:times;
-			   font-size:40px;
-			   color:white;
-			   }
-		 
-        -->
-		
-	
-	
-     </style>			
-	</head>
-	<!--header table start-->
-	<body background="bak.jpg">
-		
-    	<table class="headertable" height="70px" border="0" background="pictures/back.jpg">
-                	<tr>  
-					 <td><img src="pictures/farm.jpg"width="120" height="100" style="float:left;">
-					 </td><td><marquee><h1 class="title" valign="top">
-					 <i>Sergithang Farmers Showroom</i></h1></marquee>
-              </td>
-			  <td>
-			  <form method="get" action="http://www.google.com/search" class="g" target="_blank">
-        <input type="text" name="q" size="20">
-        <input type="submit" name="search" value="Google Search">
-        </form>   
-		</td>
-		</tr>
-			  </table>
-        <!--header table end-->
-	<!--body table starts-->	
-		<table border="1" align="center" width="1073px" height="777px" cellspacing="0" bgcolor="#cccccc">
-<tr height="127px" width="1073px"><td>	
-                
-       <table>
-	   <tr>
-			 
-			 <td class="shadowblockmenu">
-             <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="Photo.html">Photo</a></li>
-                </ul>
-				</td>
-</tr>			
-        </table>
-		<table class="table1" border="1" >
-   
-  	 <tr style="background-color:transparent">
-   		 <body link="#000080" vlink="#000080" alink="#000080">
-   
-    <td class="td1" width="40%" align="left" ><h3><b><font face="Comic Sans MS" color="green">THE HIDDEN SERGITHANG VALLEY</font></b></h3>
-	
-      <img src="pictures/Tashithang.jpg" height="400px"  width="400px" align="right"><font size="+2">
-         
-        
-         </td>
-            
-    	<td width="50%">
-     		 <center> 
-			<video width="420" height="340" controls>
-  			<source src="village.mp4" type="video/mp4">
-  			</video>
-		</center>
-       
-	  </td>
-    </tr>
-   </table>
-    
-   <table class="table2"  border="0" cellspacing="0">
-   <tr style="background-color:#c54387" class="bimg" >
-   <td align="center" valign="top"><h2><font color="#CCCCCC">Social Network Link</font></h2> 
-   
-                	<a href="https://www.facebook.com/search/top?q=sergithang%20gewog" target="_blank" class="ilink" >Sergithang Gewog Facebook</a><br>
-                    <a href="http://www.tsirang.gov.bt/gewogs/sergithang">Sergithang Map</a><br>
-                    
-                   
-                    </font><br>
-                   
-   						
-          </td>
-     <td width="100%" height="200px" align="center" valign="top"><h2><font color="green">Eat Organic, Live healthy</font></h2> 
-     
-              
-              	    	    <font color="blue">Lets support our farmers<br> 
-				Lets buy local products from Sergithang</font>
-                    
-       
-       </td>
-   
-    </tr>
-   <tr style="background-color:#c54387">
-   	<td align="center"><h2><font color="Grey">Social Links</h2></font>
-    
-    <a href="https://www.facebook.com/SOWCoders"><sowcoder.jpg" width="144" height="30" border="0"></a><br>
-    
-    
-    </td>
-	
-	
-    
-    <td  align="center" width="300px" height="250px">
-    	<font color="Grey"><h2>Calender</h2></font>
-    	<iframe src="calender/index.html" width="360px" height="270px" scrolling="no"></iframe>
-    </td>
+<!DOCTYPE html>
 
-</tr>
-<tr>
-<td><h4><script>
-// Original: Kenneth Preston <drkennan@ionet.net>  
- 
-var m = "MODIFIED DATE " + document.lastModified; 
-var p = m.length-8; 
-document.writeln("<left>"); 
-document.write(m.substring(p, 0)); 
-document.writeln("</left>"); 
-// End --> 
-</script> </h4>
-<span id="modifieddate" style="float:left"></span></td></tr>
-   
+<html lang="en">
 
+<head>
 
-<tr>
-        <td colspan="3" bgcolor="#333333"><center><B>&copy;copyright@MayaSanyasi</B></center></td>
-        </tr>
-       
-    	</table>
-   </td>
-   </tr>
-   </table>
-   <!--body table end-->
+	<meta charset="utf-8">
+
+	<title>Calendar | by Valeriu Timbuc for DesignModo</title>
+
+	<link rel="stylesheet" href="css/calendar.css" media="screen">
+
+	<style type="text/css">
+	
+body{background:url(bg.png) repeat;width:960px;margin:0 auto;}.footer{margin-top:100px;text-align:center;color:#666;font:bold 14px Arial}.footer a{color:#999;
+text-decoration:none}#wrapper{padding: 50px 0 0 325px;}
+#calendar{ width: 250px;}</style>
+<meta name="robots" content="noindex,follow" />
+</head>
+
+<body>
+
+<!--<img src="title.png" alt="">-->
+
+<div id="calendar"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="jquery-ui-datepicker.min.js"></script>
+<script>
+	$('#calendar').datepicker({
+		inline: true,
+		firstDay: 1,
+		showOtherMonths: true,
+		dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+	});
+</script>
+
 </body>
- 
 
 </html>
